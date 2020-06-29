@@ -1,0 +1,16 @@
+.body{
+	background-color: bisque;
+}
+
+.container{
+	flex-direction:column;
+	flex-wrap:wrap;
+}
+
+.helloMSG{
+	font-weight: bold;
+	font-size: 36pt;
+	border-radius: 5%;
+	border-width: 1%;
+	
+}
