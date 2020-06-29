@@ -1,16 +1,35 @@
-.body{
-	background-color: bisque;
+.mainFlex{
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	align-self: center;
+	align-items: center;
+	vertical-align: center;
+	text-align: center;
+
+	font-size: 150%;
+	width: 45%;
+
+	position: fixed;
+    top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
-.container{
-	flex-direction:column;
-	flex-wrap:wrap;
+.body {
+	background-color: #222222;
+	color: wheat;
+	vertical-align: center;
+	align-items: center;
+	text-shadow: black 4px 4px;
 }
 
-.helloMSG{
-	font-weight: bold;
-	font-size: 36pt;
-	border-radius: 5%;
-	border-width: 1%;
-	
+.footer{
+	position: fixed;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: justify;
+	vertical-align: center;
+	align-content: center;
 }
