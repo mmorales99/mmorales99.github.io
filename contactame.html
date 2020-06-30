@@ -1,16 +1,34 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
     <head>
+        <title>Página Web de Lolo</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="My own webpage for saving things for future and testing web development">
+        <meta name="author" content="Manuel 'Lolo' Morales - @mmoralitos99">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="index.css">
     </head>
     <body class="body">
-        <flexboxlayout class="mainFlex">
-                
-        </flexboxlayout>
-        <StackLayout class="footer" orientation="horizontal">
-            <span style="margin-right: 1%;"><a href="./quienSoy.html" style="color: aqua; text-decoration: none;">Quien soy.</a><span style="margin-right: 1%;"></span>
-            <span style="margin-right: 1%;"><a href="https://twitter.com/mmoralitos99" target="_blank" style="color: aqua; text-decoration: none;">Twitter.</a></span>
-            <span style="margin-right: 1%;"><a href="https://www.instagram.com/mmoralitos99" target="_blank" style="color: aqua; text-decoration: none;">Instagram.</a></span>
-            <span><a href="./index.html" style="color: aqua; text-decoration: none;">Volver atrás.</a></span>
-        </StackLayout>
+        <div class="mainFlex">
+            <div><h1>Ya me conoces un poco. ¡Contactemos!</h1></div>
+            <div><p>Me llaman Miles habitualmente, si necesitas contactar conmigo te agradecería que me trataras por ese nombre. GRACIAS</p></div>
+            <div><p>Mi correo electrónico es:   mjmorales.mcv+dev@gmail.com <br> <a href="mailto:mjmorales.mcv+dev@gmail.com" class="link">¡Envíame un correo!</a></p></div>
+            <div><p>Si necesitas información adicional no dudes en enviarme un correo.</p></div>
+            <div><p>Te dejo este formulario para que dejes tus datos de contacto:</p></div>
+            <div class="formulario">
+                <form action="send_data.php">
+                    <input type="text" id="fnombre" name="nombre" placeholder="Introduce aquí tu nombre...">
+                    <input type="text" id="fmail" name="mail" placeholder="Introduce aquí tu email o red social para que te contacte...">
+                    <textarea id="msg" name="msg" placeholder="Dedicame unas bonitas palabras..." style="height:50px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <div class="footer-container">
+            <div><a href="./quienSoy.html" class="link">Quien soy yo.</a></div>
+            <div><a href="https://twitter.com/mmoralitos99" target="_blank" class="link">Twitter.</a></div>
+            <div><a href="https://www.instagram.com/mmoralitos99" target="_blank" class="link">Instagram.</a></div>
+            <div><a href="./index.html" class="link">Volver atrás.</a></div>
+        </div>
     </body>
 </html>
