@@ -7,6 +7,11 @@
         <meta name="author" content="Manuel 'Lolo' Morales - @mmoralitos99">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="index.css">
+
+
+        <script src="https://smtpjs.com/v3/smtp.js"></script>  
+        <script src="index.js"></script>
+
     </head>
     <body class="body">
         <div class="mainFlex">
@@ -20,11 +25,12 @@
                     <input type="text" id="fnombre" name="nombre" placeholder="Introduce aquí tu nombre...">
                     <input type="text" id="fmail" name="mail" placeholder="Introduce aquí tu email o red social para que te contacte...">
                     <textarea id="msg" name="msg" placeholder="Dedicame unas bonitas palabras..." style="height:50px"></textarea>
-                    <input type="submit" value="Submit">
+                    <input type="button" value="CONTACTAR" onclick="_sendMail(); return false;">
                 </form>
             </div>
         </div>
         <div class="footer-container">
+            <hr style="width: 95%;">
             <div><a href="./quienSoy.html" class="link">Quien soy yo.</a></div>
             <div><a href="https://twitter.com/mmoralitos99" target="_blank" class="link">Twitter.</a></div>
             <div><a href="https://www.instagram.com/mmoralitos99" target="_blank" class="link">Instagram.</a></div>
