@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Página Web de Lolo</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="My own webpage for saving things for future and testing web development">
+        <meta name="author" content="Manuel 'Lolo' Morales - @mmoralitos99">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="index.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="index.js"></script>
+
+    </head>
+    <body class="body">
+        <div class="mainFlex">
+            <div><p>Te dejo este formulario para que dejes tus datos de contacto:</p></div>
+            <div class="formulario">
+                <form action="https://formspree.io/xqkydjak" method="POST">
+                    <input type="text" id="fnombre" name="nombre" placeholder="Introduce aquí tu nombre...">
+                    <input type="text" id="fmail" name="mail" placeholder="Introduce aquí tu email o red social para que te contacte...">
+                    <textarea id="msg" name="msg" placeholder="Dedicame unas bonitas palabras..." style="height:50px"></textarea>
+                    <input type="submit" value="CONTACTAR">
+                </form>
+            </div>
+            <div style="margin-top: 50px;">Tus datos son totalmente confidenciales y solamente serán usados si lo permites para contactarte.<br> Esta pagina no usa cookies, si buscas galletas te has equivocado de sitio.</div>
+        </div>
+        <div class="footer-container">
+            <hr style="width: 95%;">
+            <div><a href="./quienSoy.html" class="link">Quien soy yo.</a></div>
+            <div><a href="https://twitter.com/mmoralitos99" target="_blank" class="link">Twitter.</a></div>
+            <div><a href="https://www.instagram.com/mmoralitos99" target="_blank" class="link">Instagram.</a></div>
+            <div><a href="./index.html" class="link">Volver atrás.</a></div>
+        </div>
+    </body>
+</html>

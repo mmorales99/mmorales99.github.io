@@ -60,7 +60,7 @@
   }
   
   /* Style the submit button with a specific background color etc */
-  input[type=button] {
+  input[type=submit] {
 	background-color: aqua;
 	color: navy;
 	padding: 12px 20px;
@@ -71,7 +71,7 @@
   }
   
   /* When moving the mouse over the submit button, add a darker green color */
-  input[type=button]:hover {
+  input[type=submit]:hover {
 	background-color: navy;
 	color:aqua;
   }
@@ -84,4 +84,13 @@
   ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 	color: aqua;
 	opacity: 1; /* Firefox */
+  }
+
+  .unscrolledbared{
+	  -ms-overflow-style: none;
+	  scrollbar-width: none;
+  }
+
+  .unscrolledbared::-webkit-scrollbar{
+	  display: none;
   }
